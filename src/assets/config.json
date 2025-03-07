@@ -1,0 +1,25 @@
+{
+    "front": {
+    "urls": {
+        "urlBase": "base",
+        "urlBaseUsuarios": "usuarios",
+        "urlBaseCatalogos": "catalogos",
+        "urlBaseReportes": "reportes",
+        "urlBaseTablero": "tablero",
+        "urlBaseAuth": "auth",
+        "urlBaseNivelUsuarios": "nivel",
+        "urlBaseEmail": "email"
+    },
+
+    "flags": {
+        "perfilAdministrador": 5,
+        "perfilSucursal": 3,
+        "nivelesSolicitud": "3,4,5",
+        "nivelesPerfiles":"4,5"
+    },
+
+    "params":{
+        "client": ""
+    }
+}
+}

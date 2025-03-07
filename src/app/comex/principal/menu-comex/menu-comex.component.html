@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-md danger mt-3 mb-3">
+    <div class="pl-4">
+        <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav mt-3 mt-md-0">
+                <div class="dropdown" *ngFor="let menu of listaMenus">
+                    <div>
+                        <button (click)="exportar('Descargar Formato')" href="" class="btn dropdown animation-drop" type="button" data-bs-toggle="dropdown">
+                            <img class="icono-menu" [src]="menuIcono(menu.dscImg)">
+                            <small class="color-menu" >{{menu.dscNombre}}</small>
+                            <ul [ngClass]="menu.dscNombre === 'Descargar Formato' ? '': 'dropdown-menu'">
+                                <div *ngFor="let submenu of menu.subMenu">
+                                    <div *ngFor="let evento of submenu.eventosMenu" [ngSwitch]="evento.valTipoEven">
+                                        <div *ngSwitchCase="'redirigir'">
+                                            <li class="dropdown-item tamanio-letra" role="button" [routerLink]="evento.dscFuncion"
+                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                                            > 
+                                            {{submenu.dscNombre}}
+                                            </li>
+                                        </div>
+    
+                                        <div *ngSwitchCase="'modal'">
+                                            <li class="dropdown-item tamanio-letra" data-bs-toggle="modal" 
+                                            role="button" [routerLink]="evento.dscFuncion"
+                                            routerLinkActive="active" 
+                                            [routerLinkActiveOptions]="{exact:true}"
+                                            [attr.data-bs-target]="evento.dscFuncion"
+                                            > 
+                                            {{submenu.dscNombre}}
+                                            </li>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown animation-drop" type="button" (click)="cerrarSesion()">
+                        <img class="icono-menu" src="../../../../assets/Images/logout.png">
+                        <small class="color-menu">Cerrar Sesión</small>
+                    </button>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+</nav>

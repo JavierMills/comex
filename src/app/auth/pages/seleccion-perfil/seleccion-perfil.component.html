@@ -1,0 +1,17 @@
+<div class="modal-header background">
+    <h4 class="modal-title">Accesos</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activarModal.close()"></button>
+</div>
+
+<div class="modal-body">
+    <div class="h6 fw-bold">Seleccione el perfil de usuario</div>
+    <label for="selecction"></label>
+    <select id="selecction" class="form-select" [(ngModel)]="seleccionado">
+        <option value="0">Selecciona opción</option>
+        <option *ngFor="let perfil of perfiles" [value]="perfil.valNivAcc">{{perfil.dscDescripcion}}</option>
+    </select>
+</div>
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-outline-secondary" (click)="seleccion()">Aceptar</button>
+</div>

@@ -1,0 +1,20 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.tamanio-letra{
+    font-size: 14px;
+}
+.danger{
+    background-color: red;
+}
+.color-menu{
+    color: white;
+}
+.animation-drop:hover,
+.animation-drop:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform:translateY(-0.25em);
+    transform: translateY(-0.25em);
+    transition: .6s;
+    background-color: red;
+}

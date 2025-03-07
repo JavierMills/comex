@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="container_as mt-4">
+    <img class="santander" src="../../../assets/Images/santander1.png" alt="cargando..." />
+    <div class="d-flex">
+      <h4 class="empresas">SIG EMPRESAS</h4>
+    </div>
+  </div>
+  
+  
+  <br />
+  <hr class="line" />
+  
+  <br />
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 class="datos-acceso">Datos Acceso</h2>
+    </div>
+  </div>
+  
+  <div class="container container-margin">
+    <form [formGroup]="myForm" (ngSubmit)="validEntry()">
+     <div class="col-sm-4">
+      <div class="form-outline mb-4">
+        <label class="form-label" for="usuario">Usuario: </label>
+        <input
+          type="text"
+          name="user"
+          id="usuario"
+          formControlName="usuario"
+          class="form-control transform-upper"
+          maxlength="10"
+          minlength="5"
+        />
+      </div>
+  
+      <div class="form-outline mb-4">
+        <label class="form-label" for="pass">Password: </label>
+        <input
+          id="pass"
+          type="password"
+          name="contrasena"
+          formControlName="contrasena"
+          class="form-control"
+        />
+      </div>
+
+      <div class="d-flex justify-content-evenly">
+        <div class="sm-col-3 margen-ingresar">
+          <button type="submit" class="btn btn-outline-danger">Ingresar </button>
+        </div>
+      </div>
+     </div>
+  
+    
+  
+      <hr class="margen-hr" />
+  
+      <div class="row margen-soporte">
+        <div class="col-sm-3">
+          <label for="soporte"><strong>Soporte</strong></label>
+        </div>
+  
+        <div class="col-sm-3">
+          <img
+            class="icono-image"
+            src="../../../assets/Images/pdf.png"
+            alt="Manual..."
+          />
+          <label for="manual"><strong>Manual de Usuario</strong></label>
+        </div>
+  
+        <div class="col-sm-3">
+          <img
+            class="icono-image"
+            src="../../../assets/Images/soporte.png"
+            alt="Tecnico..."
+          />
+          <label for="tecnico"><strong>Soporte Tecnico</strong></label>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+</div>

@@ -1,0 +1,31 @@
+@import "node_modules/angular-notifier/styles";
+
+html,
+body {
+    height: 100%;
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.fondo-santander{
+    background: red;
+    color: rgb(26,24,24);
+}
+.modal-header{
+    background-color: red;
+}
+.modal-title{
+    color: white;
+}
+
+.descripcion-nivel{
+    color: rgb(84,81,81);
+}
+
+.icono-menu{
+    filter: brightness(0) invert(1);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

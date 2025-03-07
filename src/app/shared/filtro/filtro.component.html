@@ -1,0 +1,38 @@
+<form action="" [formGroup]="filtroGeneral">
+    <div class="row">
+        <ng-container *ngFor="let filtro of filtros" [ngSwitch]="filtro.tipo">
+            <ng-container *ngSwitchCase="1">
+                <div class="filtro-solicitudes col-sm-2">
+                    <div class="col text-center">
+                        <label [for]="filtro.value">{{filtro.name  | uppercase}}:</label>
+                        <input [formControlName]="filtro.value" 
+                        [id]="filtro.value" class="form-control mt-2" 
+                        [type]="filtro.formato" 
+                        [maxlength]="filtro.maxlength">
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngSwitchCase="2">
+                <div class="filtro-solicitudes col-sm-5">
+                    <div class="col-sm-9 text-center">
+                        <label [for]="filtro.value">{{ filtro.name | uppercase}}</label>
+                        <select [formControlName]="filtro.value" class="form-select mt-2" [id]="filtro.value">
+                            <option class="text-center"></option>
+                            <option *ngFor="let opcion of filtro.opciones" [value]=" buscarPorId === true ? opcion.value : opcion.descripcion">
+                                {{ opcion.descripcion | uppercase }}
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </ng-container>
+        </ng-container>
+    </div>
+
+    <div class="row">
+        <div class="col sm-2 mt-4">
+            <button (click)="emitirBusqueda()" class="btn btn-outline-danger">Buscar</button>
+            &nbsp;&nbsp;
+            <button (click)="limpiarCampos()" class="btn btn-outline-secondary">Eliminar</button>
+        </div>
+    </div>
+</form>

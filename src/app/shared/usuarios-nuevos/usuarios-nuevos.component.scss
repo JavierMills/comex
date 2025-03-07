@@ -1,0 +1,41 @@
+.contenedor-campo-usuario{
+    max-width: 700px;
+    margin: auto;
+}
+
+.etiqueta-campo-usuario{
+    min-width: 110px;
+}
+
+.icono-buscar{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.selector-multiple{
+    min-height: 38px;
+    text-overflow: ellipsis;
+}
+
+.opciones{
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #000;
+    z-index: 1;
+}
+
+.perfil-opcion{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.icono-quitar-perfil{
+    width: 15px;
+}
+
+.form-text{
+    margin-left: 120px;
+}

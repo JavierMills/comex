@@ -1,0 +1,100 @@
+.container_as {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.santander{
+    width: 30%;
+    height: 30%;
+}
+
+.line{
+    width: auto;
+    margin: auto;
+}
+
+.line1{
+    width: 52rem;
+    margin: auto;
+    height: 2px;
+}
+
+ .contenido{
+ margin-top: 2rem;
+ }
+
+ .button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+
+ .footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+ }
+
+ .list-group-item:hover{
+    background-color: #0098fe;
+    color: white;
+ }
+
+ #hover:hover{
+    background-color: #0098fe;
+    cursor:pointer;
+ }
+
+ .modal-header{
+    background-color: red;
+ }
+ .modal-title{
+    color: #ffff;
+ }
+
+ .datos-acceso{
+    color:red;
+ }
+
+ .margen-ingresar{
+    margin-left: 55px;
+ }
+
+ .marge-hr{
+    width: 61%;
+    margin-left: 19%;
+ }
+
+ .margen-soporte{
+    margin-left:15%;
+    text-align: center;
+ }
+
+ .color-label{
+    color: red;
+ }
+ .icono-image{
+    width: 20px;
+    height: 20px;
+ }
+
+ .hidden_modal{
+    overflow-x: hidden;
+    overflow-y: hidden;
+ }
+
+ .datos_acceso{
+    margin-left: 21%;
+ }
+ .container_margin{
+    margin-left: -12.5%;
+ }
+
+ .label_usuario{
+    margin-top: 2%;
+ }
+
+ .alinear-texto{
+    text-align: right;
+ }

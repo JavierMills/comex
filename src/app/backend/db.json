@@ -1,0 +1,703 @@
+{
+    "niveles":[
+        {
+            "id": 1,
+            "dscDescripcion": "Pendiente por acceso",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "-1"
+        },
+        {
+            "id": 2,
+            "dscDescripcion": "Especialista COMEX",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "0"
+        },
+        {
+            "id": 3,
+            "dscDescripcion": "Contraloria",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "1"
+        },
+        {
+            "id": 4,
+            "dscDescripcion": "Cartera",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "2"
+        },
+        {
+            "id": 5,
+            "dscDescripcion": "Negocio Internacional",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "8"
+        },
+        {
+            "id": 6,
+            "dscDescripcion": "Riesgos",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "4"
+        },
+        {
+            "id": 7,
+            "dscDescripcion": "Auditoria",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "5"
+        },
+        {
+            "id": 8,
+            "dscDescripcion": "Fondos de Fomento",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "6"
+        },
+        {
+            "id": 9,
+            "dscDescripcion": "Asesor COMEX",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "7"
+        },
+          
+        {
+            "id": 10,
+            "dscDescripcion": "Operacion Internacional",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "9"
+        },
+
+        {
+            "id": 11,
+            "dscDescripcion": "Garantias",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "10"
+        },
+      
+        {
+            "id": 12,
+            "dscDescripcion": "Consulta",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "11"
+        },
+        {
+            "id": 13,
+            "dscDescripcion": "Descargas",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "12"
+        },
+        {
+            "id": 14,
+            "dscDescripcion": "Recuperaciones",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "13"
+        },
+        {
+            "id": 15,
+            "dscDescripcion": "Admin",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "14"
+        },
+        {
+            "id": 16,
+            "dscDescripcion": "Hotelero",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "15"
+        },
+        {
+            "id": 17,
+            "dscDescripcion": "Validador",
+            "txtMailAdm": "javier_bouncing@hotmail.com",
+            "valEstatus": 1,
+            "valNivAcc": "16"
+        }
+
+    ],
+    "usuario":[
+        {
+            "id": 420058,
+            "dscExp": "Z420058",
+            "dscNombre": "RAMIRO JAVIER MARTINEZ CRUZ",
+            "dscRecibirC":0,
+            "dscCorreo": "javier_bouncing@hotmail.com",
+            "valPerfil": 0,
+            "valExtencion": "98978",
+            "accesos":[
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 2
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 1
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 0
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 8
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 4
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 5
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 6
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 7
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 9
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 10
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 11
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 12
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 13
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 14
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 15
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 16
+                }
+     
+            ]
+
+        },
+        {
+            "id": 420059,
+            "dscExp": "Z420059",
+            "dscNombre": "MARIA FERNANDA BONILLA VALDEZ",
+            "dscRecibirC":0,
+            "dscCorreo": "javier_bouncing@hotmail.com",
+            "valPerfil": 0,
+            "valExtencion": "98978",
+            "accesos":[
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 2
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 1
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 0
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 8
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 4
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 5
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 6
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 7
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 9
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 10
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 11
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 12
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 13
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 14
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 15
+                },
+                {
+                    "valEstatus": 1,
+                    "fchAlta": "2025",
+                    "valAutorizo": 95,
+                    "idAplicativoFk": 1,
+                    "idNivelAcceso": 16
+                }
+     
+            ]
+
+        }
+    ],
+    "menu":[
+        {
+            "valNivelAcc": 7,
+            "id": 1,
+            "dscAlias":"Sig_Empresas",
+            "dscAplicativo":"Sig_Empresas",
+            "dscDescripcion":"SIG Empresas Comex",
+            "txtUrl":"Sig_Empresas",
+            "menus":[
+                {
+                    "id":55,
+                    "dscImg":"solicitud.png",
+                    "dscNombre":"Solicitudes",
+                    "idNamMenu":"Solicitudes",
+                    "valEstado":1,
+                    "valGrupo":1,
+                    "valNivelAcc": 7,
+                    "valOrden":1,
+                    "subMenu":[
+                        {
+                            "id": 126,
+                            "dscNombre": "Solicitudes Automaticas",
+                            "idNameSubmenu":"idSolicitudesAutomaticas",
+                            "valNivel":1,
+                            "eventosMenu":[
+                                {
+                                    "id": 179,
+                                    "dscFuncion":"automaticas",
+                                    "idMePertenFk":126,
+                                    "valNivelMenu":1,
+                                    "valParametros": " ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":127,
+                            "dscNombre":"Solicitudes Selectivas",
+                            "idNameSubmenu":"idSolicitudesSelectivas",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":180,
+                                    "dscFuncion": "selectivas",
+                                    "idMePertenFk":127,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+                        },
+                        {
+                            "id":145,
+                            "dscNombre":"Solicitudes TMEC",
+                            "idNameSubmenu":"idSolicitudesPyme",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":203,
+                                    "dscFuncion": "tmec",
+                                    "idMePertenFk":145,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+                        },
+                        {
+                            "id":163,
+                            "dscNombre":"Solicitudes Contrato Pyme",
+                            "idNameSubmenu":"idSolContratoPyme",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":224,
+                                    "dscFuncion": "contratopyme",
+                                    "idMePertenFk":163,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+                        },
+                        {
+                            "id":169,
+                            "dscNombre":"Solicitudes Comex-TMEC",
+                            "idNameSubmenu":"idSolicitudesComexTmec",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":230,
+                                    "dscFuncion": "comextmec",
+                                    "idMePertenFk":169,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ] 
+                        },
+                        {
+                            "id":179,
+                            "dscNombre":"Solicitudes Turismo",
+                            "idNameSubmenu":"idSolicitudesTurismo",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":239,
+                                    "dscFuncion": "turismo",
+                                    "idMePertenFk":179,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ] 
+                        },
+
+                        {
+                            "id":187,
+                            "dscNombre":"Solicitudes Reestructuras",
+                            "idNameSubmenu":"idSolicitudesComexTmec",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":247,
+                                    "dscFuncion": "reestructuras-estatus",
+                                    "idMePertenFk":187,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ] 
+                        }
+                    ],
+                    "eventosMenu":[
+                        {
+                            "id":53,
+                            "dscFuncion": "CargarFuncion('solicitudes)",
+                            "idMePertenFk":55,
+                            "valNivelMenu":0,
+                            "valParametros":" ",
+                            "valTipoEven":"onclick"
+                        }
+                    ]
+                },
+                {
+                    "id":43,
+                    "dscImg":"download.png",
+                    "dscNombre":"Descargar Formato",
+                    "idNamMenu":"DescagarFormatos",
+                    "valEstado":1,
+                    "valGrupo":1,
+                    "valNivelAcc": 0,
+                    "valOrden":2,
+                    "subMenu":[
+                        {
+                            "id":50,
+                            "dscFuncion":"DescargarFormatos()",
+                            "idMePertenFk":43,
+                            "valNivelMenu":0,
+                            "valParametros":" ",
+                            "valTipoEven":"onclick"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "valNivelAcc": 0,
+            "id": 1,
+            "dscAlias":"RAMIRO",
+            "dscAplicativo":"Sig_Empresas",
+            "dscDescripcion":"SIG Empresas Comex",
+            "txtUrl":"Sig_Empresas",
+            "menus":[
+                {
+                    "id":55,
+                    "dscImg":"solicitud.png",
+                    "dscNombre":"Solicitudes",
+                    "idNamMenu":"Solicitudes",
+                    "valEstado":1,
+                    "valGrupo":1,
+                    "valNivelAcc": 7,
+                    "valOrden":1,
+                    "subMenu":[
+                        {
+                            "id": 126,
+                            "dscNombre": "Solicitudes Automaticas",
+                            "idNameSubmenu":"idSolicitudesAutomaticas",
+                            "valNivel":1,
+                            "eventosMenu":[
+                                {
+                                    "id": 179,
+                                    "dscFuncion":"automaticas",
+                                    "idMePertenFk":126,
+                                    "valNivelMenu":1,
+                                    "valParametros": " ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+
+                        },
+                        {
+                            "id":127,
+                            "dscNombre":"Solicitudes Selectivas",
+                            "idNameSubmenu":"idSolicitudesSelectivas",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":180,
+                                    "dscFuncion": "selectivas",
+                                    "idMePertenFk":127,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+                        },
+                        {
+                            "id":145,
+                            "dscNombre":"Solicitudes TMEC",
+                            "idNameSubmenu":"idSolicitudesPyme",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":203,
+                                    "dscFuncion": "tmec",
+                                    "idMePertenFk":145,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+                        },
+                        {
+                            "id":163,
+                            "dscNombre":"Solicitudes Contrato Pyme",
+                            "idNameSubmenu":"idSolContratoPyme",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":224,
+                                    "dscFuncion": "contratopyme",
+                                    "idMePertenFk":163,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ]
+                        },
+                        {
+                            "id":169,
+                            "dscNombre":"Solicitudes Comex-TMEC",
+                            "idNameSubmenu":"idSolicitudesComexTmec",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":230,
+                                    "dscFuncion": "comextmec",
+                                    "idMePertenFk":169,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ] 
+                        },
+                        {
+                            "id":179,
+                            "dscNombre":"Solicitudes Turismo",
+                            "idNameSubmenu":"idSolicitudesTurismo",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":239,
+                                    "dscFuncion": "turismo",
+                                    "idMePertenFk":179,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ] 
+                        },
+
+                        {
+                            "id":187,
+                            "dscNombre":"Solicitudes Reestructuras",
+                            "idNameSubmenu":"idSolicitudesComexTmec",
+                            "valNivel": 1,
+                            "eventosMenu":[
+                                {
+                                    "id":247,
+                                    "dscFuncion": "reestructuras-estatus",
+                                    "idMePertenFk":187,
+                                    "valNivelMenu":1,
+                                    "valParametros":" ",
+                                    "valTipoEven":"redirigir"
+                                }
+                            ] 
+                        }
+                    ],
+                    "eventosMenu":[
+                        {
+                            "id":53,
+                            "dscFuncion": "CargarFuncion('solicitudes)",
+                            "idMePertenFk":55,
+                            "valNivelMenu":0,
+                            "valParametros":" ",
+                            "valTipoEven":"onclick"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "aplicativo":[
+        {
+            "id":1,
+            "dscAlias":"Sig_Empresas",
+            "dscAplicativo":"Sig_Empresas",
+            "dscDescripcion":"SIG Empresas Comex",
+            "txtUrl": "Sig_Empresas"
+        }
+    ]
+
+}
